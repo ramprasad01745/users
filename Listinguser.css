@@ -1,0 +1,49 @@
+.listing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo {
+    order: 0; /* Move the logo to the right */
+  }
+
+  h1{
+    order:1;
+  }
+  
+  
+  button {
+    order: 2; /* Move the button to the left */
+  }
+  
+  .data-table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+
+  .small-button {
+    font-size: 12px; /* Adjust the font size as needed */
+    /* You can add more styles if needed, such as padding, margin, etc. */
+  }
+  
+  
